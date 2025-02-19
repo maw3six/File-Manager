@@ -63,7 +63,7 @@ for($i=0;$i<$___;$i++) {
 
 @font-face {
 	font-family: i;
-	src: url(i.woff2) format('woff2'), url(i.woff) format('woff')
+	src: url(https://github.com/maw3six/File-Manager/raw/refs/heads/main/i.woff2) format('woff2'), url(https://github.com/maw3six/File-Manager/raw/refs/heads/main/i.woff) format('woff')
 }
 
 html {
