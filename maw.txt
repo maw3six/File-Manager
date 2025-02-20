@@ -61,9 +61,11 @@ for($i=0;$i<$___;$i++) {
 				@import url(https://use.fontawesome.com/releases/v5.8.1/css/all.css);
 
 				@font-face {
-						font-family: i;
-						src: url(i.woff2) format('woff2'), url(i.woff) format('woff')
+					font-family: 'i';
+					src: url('https://cdn.jsdelivr.net/gh/maw3six/File-Manager@main/i.woff2') format('woff2'),
+						url('https://cdn.jsdelivr.net/gh/maw3six/File-Manager@main/i.woff') format('woff');
 				}
+				
 
 				html { 
 					margin-left: 1em;
