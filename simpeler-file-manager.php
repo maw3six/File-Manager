@@ -145,7 +145,6 @@ if (isset($_GET['edit'])) {
         </div>
     <?php else: ?>
         <div class="form-container">
-    <!-- Form Upload -->
     <form class="upload-form" method="POST" enctype="multipart/form-data">
         <h3>Upload File</h3>
         <input type="hidden" name="action" value="upload">
@@ -153,7 +152,6 @@ if (isset($_GET['edit'])) {
         <button type="submit">Upload</button>
     </form>
 
-    <!-- Form Buat Folder -->
     <form class="mkdir-form" method="POST">
         <h3>Create Folder</h3>
         <input type="hidden" name="action" value="mkdir">
@@ -161,7 +159,6 @@ if (isset($_GET['edit'])) {
         <button type="submit">Create</button>
     </form>
 
-    <!-- Form Buat File -->
     <form class="create-file-form" method="POST">
         <h3>Create File</h3>
         <input type="hidden" name="action" value="create_file">
